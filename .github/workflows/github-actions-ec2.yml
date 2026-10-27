@@ -20,6 +20,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
+          EXCLUDE: "/.git/, /.github/"
 
       - name: Execute Commands on EC2
         uses: appleboy/ssh-action@v1.0.3
