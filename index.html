@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hetvi Gajjar | Portfolio</title>
+	<style>
+		body { margin: 0; font: 16px/1.6 Arial, sans-serif; color: #222; background: #f5f7fb; }
+		header, main, footer { max-width: 800px; margin: auto; padding: 20px; }
+		header { display: flex; justify-content: space-between; align-items: center; }
+		nav a { margin-left: 14px; color: #334fc4; text-decoration: none; }
+		.intro { padding: 55px 20px; text-align: center; background: #e8edff; }
+		.intro h1 { margin: 0; font-size: 2.5rem; }
+		.intro p { color: #555; }
+		h2 { margin-top: 30px; }
+		.project { padding: 16px; margin: 12px 0; background: #fff; border-radius: 8px; }
+		footer { color: #666; text-align: center; }
+		@media (max-width: 480px) { header { align-items: flex-start; flex-direction: column; } nav a { margin: 0 12px 0 0; } }
+	</style>
+</head>
+<body>
+	<header>
+		<strong>Hetvi Gajjar</strong>
+		<nav aria-label="Main navigation">
+			<a href="#about">About</a>
+			<a href="#work">Work</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+
+	<section class="intro">
+		<h1>Hello, I'm Hetvi.</h1>
+		<p>A web developer who builds simple, thoughtful websites.</p>
+	</section>
+
+	<main>
+		<section id="about">
+			<h2>About</h2>
+			<p>I enjoy creating accessible websites with HTML, CSS, and JavaScript.</p>
+		</section>
+		<section id="work">
+			<h2>Featured work</h2>
+			<article class="project">
+				<h3>Personal Blog</h3>
+				<p>A clean, responsive home for articles and notes.</p>
+			</article>
+			<article class="project">
+				<h3>Local Café</h3>
+				<p>A small website featuring a menu and opening hours.</p>
+			</article>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p>Email: <a href="mailto:hetvi@example.com">hetvi@example.com</a></p>
+		</section>
+	</main>
+
+	<footer>© 2025 Hetvi Gajjar</footer>
+</body>
+</html>
